@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+header{
+	background-color:#ffffbf;
+	color:#362204;
+}
+header img{
+	height:128px;
+	width:128px;
+	margin-left: 10px;
+	display:block;
+	max-width:100%;
+	height:auto;
+	padding-top:5px;
+	float:left;
+}
+body{
+	background-color: #5c6508;
+	margin-bottom: 0;
+	display: block;
+	max-width:100%
+	height:0 auto;
+	margin: 0 auto;
+	font-family: 'Arimo', sans-serif;
+}
+main{
+	width:1200px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+main img{
+	padding:10px;
+	border-radius:20px;
+}
+h1{
+	text-align:left;
+	font-size:3em;
+	font-family: 'Bebas Neue', cursive;
+	padding-top: 35px;
+	color:#362204;
+	padding-left:20px;
+	margin-bottom:0;
+	margin-left:10px;
+}
+h2{
+	font-size:1em;
+	text-align:left;
+	font-family: 'Bebas Neue', cursive;
+	color:#362204;
+	padding-bottom:20px;
+	margin-left:10px;
+}
+nav{
+	color:#ffffbf;
+	text-align:right;
+	background-color: #362204;
+	border-top: 3px solid #362204;
+	height: 4em;
+	font-size: 1em;
+
+}
+nav li{
+	display: inline;
+	color:#ffffbf;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left:20px;
+	color:#ffffbf;
+}
+nav a:link{
+	color: #ffffbf;
+}
+nav a:visited{
+	color:#ffffbf;
+}
+nav a:hover{
+	color:#5c6508;
+	text-decoration: none;
+}
+nav a:active{
+	color:#ffffbf;
+}
+a{
+	font-size:1em;
+	color:#ffffbf;
+	text-decoration:none;
+	text-align:left;
+}	
+a li{
+	display: inline;
+	color:#ffffbf;
+}
+a{
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left:20px;
+	color:#ffffbf;
+}
+a:link{
+	color: #ffffbf;
+}
+a:visited{
+	color:#ffffbf;
+}
+a:hover{
+	color:#5c6508;
+	text-decoration: none;
+}
+a:active{
+	color:#ffffbf;
+}
+i.fas, 
+i.fab{
+	font-size:1.5em;
+	color:#ffffbf;
+	letter-spacing: 10px;
+	display:inline;
+	text-decoration:none;
+	padding-bottom:20px;
+}
+.preview{
+	padding-top:20PX;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	float:center;
+}
+
+/*Media queries for tablets go here */
+@media only screen and (max-width: 1024px){
+	 body{
+			margin:0;
+			padding:0;
+			background-image:none;
+	}
+@media only screen and (max-width: 1024px){
+	#wrapper{
+		width: auto;
+		min-width: 0px;
+		box-shadow: none;
+	}
+@media only screen and (max-width: 1024px){
+	h1{
+		margin: 0px;
+	}
+@media only screen and (max-width: 1024px){
+	nav{
+		float: none;
+		width: auto;
+		padding: 1.5em;
+	}
+@media only screen and (max-width: 1024px){
+	nav li{
+		display: inline;
+		padding: 1em;
+	}
+@media only screen and (max-width: 1024px){
+	nav a{
+		padding: 1em;
+	}
+@media only screen and (max-width: 1024px){
+	main{
+		margin-left: 0px;
+		padding: 1em;
+		font-size: 90%;
+	}
+@media only screen and (max-width: 1024px){
+	footer{
+		margin: 0px;
+	}
+@media only screen and (max-width: 1024px){
+	#homehero, #yurthero, #activityhero{
+		margin-left: 0px;
+	}
+
+/*Media queries for smartphones go here */
+@media only screen and (max-width: 768px){
+	#homehero, #yurthero, #activityhero{
+		display:none;
+	}
+@media only screen and (max-width: 768px){
+	header{
+		display: block;
+		margin: 0;
+		padding: 1px;
+	}
+@media only screen and (max-width: 768px){
+	nav li{
+		display: block;
+		margin: 0;
+		padding: 0px;
+	}
+@media only screen and (max-width: 768px){
+	nav a{
+		display: block;
+		padding: 0;
+		font-size: 1em;
+	}
+@media only screen and (max-width: 768px){
+	nav{
+		padding: 0;
+		height: 175px;
+	}
+@media only screen and (max-width: 768px){
+	nav ul{
+		margin: 0;
+		padding: 0;
+	}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 2em;
+		padding-left: 0.3em;
+		height: auto;
+	}
+@media only screen and (max-width: 768px){
+	main{
+		padding: 0.1em 0.6em 0.1em 0.4em;
+		display:block;
+		font-size:1.25em;
+	}
+	@media only screen and (max-width: 768px){
+	main img{
+		padding: 0.1em 0.6em 0.1em 0.4em;
+		display:block;
+	}
+	@media only screen and (max-width: 768px){
+	img{
+		padding: 0.1em 0.6em 0.1em 0.4em;
+		display:block;
+	}
+@media only screen and (max-width: 768px){
+	footer{
+		padding: 0;
+	}
+@media only screen and (max-width: 768px){
+	#desktop{
+		display:none;
+	}
+@media only screen and (max-width: 768px){
+	#mobile{
+		display: inline;
+	}
+}
+
